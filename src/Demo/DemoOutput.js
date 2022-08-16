@@ -8,4 +8,4 @@ function DemoOutput(props) {
   return <MyParagrapgh>{props.show ? "This is news!" : ""}</MyParagrapgh>;
 }
 
-export default DemoOutput;
+export default React.memo(DemoOutput);
